@@ -8,9 +8,13 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "cuecard-ml-graphrag-inference-engine",
     "pandas>=2.2.3",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv.sources]
+cuecard-ml-graphrag-inference-engine = { git = "ssh://git@github.com/CueCard-AI/cuecard-ml-graphrag-inference-engine.git" }
