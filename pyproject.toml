@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "cuecard-ml-graphrag-inference-engine @ git+ssh://git@github.com/CueCard-AI/cuecard-ml-graphrag-inference-engine.git",
+    "cuecard-ml-graphrag-inference-engine",
     "pandas>=2.2.3",
 ]
 
